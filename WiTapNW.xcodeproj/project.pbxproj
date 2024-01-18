@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1C3802A2B577F4100A34617 /* PeerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C380292B577F4100A34617 /* PeerBrowser.swift */; };
+		B1C3802C2B57822B00A34617 /* PeerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3802B2B57822B00A34617 /* PeerListener.swift */; };
+		B1C3802E2B57825D00A34617 /* PeerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3802D2B57825D00A34617 /* PeerConnection.swift */; };
+		B1C380302B57840300A34617 /* NWParameters+InitWithPasscode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3802F2B57840300A34617 /* NWParameters+InitWithPasscode.swift */; };
+		B1C380322B57AE8600A34617 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C380312B57AE8600A34617 /* GameProtocol.swift */; };
 		B1E725552B569DB100B8AE4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E725542B569DB100B8AE4D /* AppDelegate.swift */; };
 		B1E725572B569DB100B8AE4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E725562B569DB100B8AE4D /* SceneDelegate.swift */; };
-		B1E725592B569DB100B8AE4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E725582B569DB100B8AE4D /* ViewController.swift */; };
+		B1E725592B569DB100B8AE4D /* TapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E725582B569DB100B8AE4D /* TapViewController.swift */; };
 		B1E7255C2B569DB100B8AE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E7255A2B569DB100B8AE4D /* Main.storyboard */; };
 		B1E7255E2B569DB300B8AE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E7255D2B569DB300B8AE4D /* Assets.xcassets */; };
 		B1E725612B569DB300B8AE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E7255F2B569DB300B8AE4D /* LaunchScreen.storyboard */; };
+		B1E725692B56A2F100B8AE4D /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E725682B56A2F100B8AE4D /* TapView.swift */; };
+		B1E7256B2B56AF4600B8AE4D /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7256A2B56AF4600B8AE4D /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1A500812B58C29000AA674F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1C380292B577F4100A34617 /* PeerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerBrowser.swift; sourceTree = "<group>"; };
+		B1C3802B2B57822B00A34617 /* PeerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerListener.swift; sourceTree = "<group>"; };
+		B1C3802D2B57825D00A34617 /* PeerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerConnection.swift; sourceTree = "<group>"; };
+		B1C3802F2B57840300A34617 /* NWParameters+InitWithPasscode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NWParameters+InitWithPasscode.swift"; sourceTree = "<group>"; };
+		B1C380312B57AE8600A34617 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		B1E725512B569DB100B8AE4D /* WiTapNW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiTapNW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E725542B569DB100B8AE4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E725562B569DB100B8AE4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1E725582B569DB100B8AE4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1E725582B569DB100B8AE4D /* TapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewController.swift; sourceTree = "<group>"; };
 		B1E7255B2B569DB100B8AE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1E7255D2B569DB300B8AE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1E725602B569DB300B8AE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1E725622B569DB300B8AE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E725682B56A2F100B8AE4D /* TapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
+		B1E7256A2B56AF4600B8AE4D /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +71,31 @@
 		B1E725532B569DB100B8AE4D /* WiTapNW */ = {
 			isa = PBXGroup;
 			children = (
+				B1E7256C2B56C08C00B8AE4D /* WiFiLan */,
 				B1E725542B569DB100B8AE4D /* AppDelegate.swift */,
 				B1E725562B569DB100B8AE4D /* SceneDelegate.swift */,
-				B1E725582B569DB100B8AE4D /* ViewController.swift */,
+				B1E725682B56A2F100B8AE4D /* TapView.swift */,
+				B1E725582B569DB100B8AE4D /* TapViewController.swift */,
+				B1E7256A2B56AF4600B8AE4D /* PickerViewController.swift */,
 				B1E7255A2B569DB100B8AE4D /* Main.storyboard */,
 				B1E7255D2B569DB300B8AE4D /* Assets.xcassets */,
 				B1E7255F2B569DB300B8AE4D /* LaunchScreen.storyboard */,
 				B1E725622B569DB300B8AE4D /* Info.plist */,
+				B1A500812B58C29000AA674F /* README.md */,
 			);
 			path = WiTapNW;
+			sourceTree = "<group>";
+		};
+		B1E7256C2B56C08C00B8AE4D /* WiFiLan */ = {
+			isa = PBXGroup;
+			children = (
+				B1C380292B577F4100A34617 /* PeerBrowser.swift */,
+				B1C3802B2B57822B00A34617 /* PeerListener.swift */,
+				B1C3802D2B57825D00A34617 /* PeerConnection.swift */,
+				B1C3802F2B57840300A34617 /* NWParameters+InitWithPasscode.swift */,
+				B1C380312B57AE8600A34617 /* GameProtocol.swift */,
+			);
+			path = WiFiLan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E725592B569DB100B8AE4D /* ViewController.swift in Sources */,
+				B1C3802C2B57822B00A34617 /* PeerListener.swift in Sources */,
+				B1C380322B57AE8600A34617 /* GameProtocol.swift in Sources */,
+				B1C380302B57840300A34617 /* NWParameters+InitWithPasscode.swift in Sources */,
+				B1E7256B2B56AF4600B8AE4D /* PickerViewController.swift in Sources */,
+				B1E725692B56A2F100B8AE4D /* TapView.swift in Sources */,
+				B1C3802E2B57825D00A34617 /* PeerConnection.swift in Sources */,
+				B1E725592B569DB100B8AE4D /* TapViewController.swift in Sources */,
 				B1E725552B569DB100B8AE4D /* AppDelegate.swift in Sources */,
+				B1C3802A2B577F4100A34617 /* PeerBrowser.swift in Sources */,
 				B1E725572B569DB100B8AE4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +362,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

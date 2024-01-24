@@ -102,7 +102,7 @@ class PickerViewController: UITableViewController {
         setupLocalServiceNameLabel()
     }
 
-    public func start(){
+    func start(){
         assert(services.count == 0)
         assert(self.browser == nil)
 
@@ -112,7 +112,7 @@ class PickerViewController: UITableViewController {
         browser.startBrowsing()
     }
 
-    public func stop(){
+    func stop(){
         browser?.stopBrowsing()
         browser = nil
 
@@ -121,7 +121,7 @@ class PickerViewController: UITableViewController {
         tableView.reloadData()
     }
 
-    public func cancelConnect(){
+    func cancelConnect(){
         hideConnectViewAndNotify(false)
     }
 

@@ -21,7 +21,7 @@ class TapView: UIView {
 
     private(set) var localTouch = false
 
-    public var remoteTouch = false {
+    var remoteTouch = false {
         didSet{
             updateLayerBorder()
         }
@@ -49,7 +49,7 @@ class TapView: UIView {
         layer.borderWidth = (localTouch || remoteTouch) ? kActivationInset : 0.0
     }
 
-    public func resetTouches(){
+    func resetTouches(){
         localTouchUp(notify: false)
         if remoteTouch {
             remoteTouch = false

@@ -39,7 +39,7 @@ class TapViewController: UIViewController {
         }
     }
 
-    public func remoteTouchDown(on item: Int) {
+    func remoteTouchDown(on item: Int) {
         assert(item < kTapViewControllerTapItemCount)
         if isViewLoaded {
             let tapView = view.viewWithTag(item+1) as? TapView
@@ -47,7 +47,7 @@ class TapViewController: UIViewController {
         }
     }
 
-    public func remoteTouchUp(on item: Int) {
+    func remoteTouchUp(on item: Int) {
         assert(item < kTapViewControllerTapItemCount)
         if isViewLoaded {
             let tapView = view.viewWithTag(item+1) as? TapView
@@ -55,7 +55,7 @@ class TapViewController: UIViewController {
         }
     }
 
-    public func resetTouches() {
+    func resetTouches() {
         for tapViewTag in 1...kTapViewControllerTapItemCount {
             let tapView = view.viewWithTag(tapViewTag) as? TapView
             assert(tapView != nil)

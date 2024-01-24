@@ -23,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1A500812B58C29000AA674F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B1C380292B577F4100A34617 /* PeerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerBrowser.swift; sourceTree = "<group>"; };
 		B1C3802B2B57822B00A34617 /* PeerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerListener.swift; sourceTree = "<group>"; };
 		B1C3802D2B57825D00A34617 /* PeerConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerConnection.swift; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 				B1E7255D2B569DB300B8AE4D /* Assets.xcassets */,
 				B1E7255F2B569DB300B8AE4D /* LaunchScreen.storyboard */,
 				B1E725622B569DB300B8AE4D /* Info.plist */,
-				B1A500812B58C29000AA674F /* README.md */,
 			);
 			path = WiTapNW;
 			sourceTree = "<group>";
@@ -328,6 +326,7 @@
 				DEVELOPMENT_TEAM = MNK8735NK3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WiTapNW/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "发现局域网其他玩家";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -357,6 +356,7 @@
 				DEVELOPMENT_TEAM = MNK8735NK3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WiTapNW/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "发现局域网其他玩家";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -167,7 +167,8 @@ extension SceneDelegate: PickerDelegate {
     func pickerViewControllerDidCancelConnect(_ picker: PickerViewController) {
         // Called by the picker when the user taps the Cancel button in its
         // connection-in-progress UI.  We respond by closing our in-progress connection.
-
+        sharedConnection?.cancel()
+        sharedConnection = nil
     }
 }
 
